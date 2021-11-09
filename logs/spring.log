@@ -1,0 +1,83 @@
+2021-11-09 13:59:39.795  INFO 1046 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        2ac6bf4e0dcab9ba7493b0494316b8bee698913d-SNAPSHOT
+	Build:          1232
+	Build time:     20.04.2021 07:05:21 UTC
+	Branch          master
+	Commit:         2ac6bf4
+	Commit time:    20.04.2021 07:02:46 UTC
+	JVM:            11.0.11
+	Lavaplayer      1.3.76
+
+2021-11-09 13:59:40.628  INFO 1046 --- [main] lavalink.server.Launcher                 : Starting Launcher on 2b1226f0323f with PID 1046 (/home/runner/NOemi/Lavalink.jar started by runner in /home/runner/NOemi)
+2021-11-09 13:59:40.629  INFO 1046 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-11-09 13:59:41.897  WARN 1046 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-11-09 13:59:50.203  WARN 1046 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-11-09 13:59:50.394  INFO 1046 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-11-09 13:59:50.396  INFO 1046 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9211 ms
+2021-11-09 13:59:52.220  WARN 1046 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-11-09 13:59:54.590  INFO 1046 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-11-09 13:59:55.894  INFO 1046 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2021-11-09 13:59:55.895  INFO 1046 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2021-11-09 13:59:55.901  INFO 1046 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2021-11-09 13:59:55.910  INFO 1046 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2021-11-09 13:59:58.011  INFO 1046 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-09 14:00:00.204  INFO 1046 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-11-09 14:00:00.247  INFO 1046 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-11-09 14:00:00.603  INFO 1046 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-11-09 14:00:00.690  INFO 1046 --- [main] lavalink.server.Launcher                 : Started Launcher in 26.167 seconds (JVM running for 29.677)
+2021-11-09 14:00:00.697  INFO 1046 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2021-11-09 14:00:01.814  INFO 1046 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-09 14:00:01.815  INFO 1046 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-09 14:00:01.886  INFO 1046 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 71 ms
+2021-11-09 14:00:01.997 ERROR 1046 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:33530
+2021-11-09 21:43:56.445  INFO 1046 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-09 21:43:56.447  INFO 1046 --- [Thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2021-11-09 21:43:56.453  INFO 1046 --- [Thread-1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-11-09 21:58:10.219  INFO 3538 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        2ac6bf4e0dcab9ba7493b0494316b8bee698913d-SNAPSHOT
+	Build:          1232
+	Build time:     20.04.2021 07:05:21 UTC
+	Branch          master
+	Commit:         2ac6bf4
+	Commit time:    20.04.2021 07:02:46 UTC
+	JVM:            11.0.11
+	Lavaplayer      1.3.76
+
+2021-11-09 21:58:11.288  INFO 3538 --- [main] lavalink.server.Launcher                 : Starting Launcher on 2b1226f0323f with PID 3538 (/home/runner/NOemi/Lavalink.jar started by runner in /home/runner/NOemi)
+2021-11-09 21:58:11.292  INFO 3538 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-11-09 21:58:12.394  WARN 3538 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-11-09 21:58:20.508  WARN 3538 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-11-09 21:58:20.792  INFO 3538 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-11-09 21:58:20.793  INFO 3538 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8991 ms
+2021-11-09 21:58:23.303  WARN 3538 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-11-09 21:58:25.431  INFO 3538 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-11-09 21:58:26.620  INFO 3538 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2021-11-09 21:58:26.682  INFO 3538 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2021-11-09 21:58:26.688  INFO 3538 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2021-11-09 21:58:26.695  INFO 3538 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2021-11-09 21:58:28.648  INFO 3538 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-09 21:58:30.683  INFO 3538 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-11-09 21:58:30.791  INFO 3538 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-11-09 21:58:31.100  INFO 3538 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-11-09 21:58:31.118  INFO 3538 --- [main] lavalink.server.Launcher                 : Started Launcher in 25.723 seconds (JVM running for 28.71)
+2021-11-09 21:58:31.125  INFO 3538 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2021-11-09 21:58:32.024  INFO 3538 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-09 21:58:32.024  INFO 3538 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-09 21:58:32.100  INFO 3538 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 76 ms
+2021-11-09 21:58:32.193 ERROR 3538 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:58136
